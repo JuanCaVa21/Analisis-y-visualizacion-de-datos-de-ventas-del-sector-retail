@@ -1,0 +1,78 @@
+{
+  "name": "TechCore Theme",
+  "background": "#F8F9FA",
+  "foreground": "#212529",
+  "tableAccent": "#00E5E8",
+
+  "dataColors": [
+    "#0A1F33",
+    "#00E5E8",
+    "#123B63",
+    "#4FC3DC",
+    "#6C757D",
+    "#38B000",
+    "#E63946"
+  ],
+
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "color": {
+              "solid": {
+                "color": "#0A1F33"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#212529"
+              }
+            },
+            "fontSize": 10
+          }
+        ],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F8F9FA"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [
+          {
+            "fontSize": 28,
+            "color": {
+              "solid": {
+                "color": "#00E5E8"
+              }
+            }
+          }
+        ],
+        "categoryLabel": [
+          {
+            "fontSize": 12,
+            "color": {
+              "solid": {
+                "color": "#6C757D"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
