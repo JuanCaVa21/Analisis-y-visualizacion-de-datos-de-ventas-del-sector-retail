@@ -49,13 +49,13 @@
 
 Proyecto de **Análisis de Datos End-to-End** enfocado en el sector retail, donde se realiza la **integración, limpieza, modelado y visualización de datos de ventas**, utilizando **Python, Power BI y Excel**, con el objetivo de generar **insights accionables para la toma de decisiones**.
 
-Este repositorio forma parte de mi **portafolio profesional como Analista de Datos**.
+Este repositorio forma parte de mi **portafolio profesional como Analista de Datos / Cientifico de Datos**.
 
 ---
 
 ## Quick Overview 
 
-- **Rol objetivo:** Analista de Datos / Data Analyst Jr
+- **Rol objetivo:** Data Analyst Jr / Data Science Jr
 - **Industria:** Retail – Venta de equipos tecnológicos
 - **Skills demostradas:**
   - Data Cleaning & Transformation
@@ -87,13 +87,11 @@ Para ello, se diseñó un proceso completo de análisis de datos desde datos cru
 ### Python
 - `pandas` → Manipulación y transformación de datos
 - `numpy` → Operaciones numéricas
-- `matplotlib` → Análisis exploratorio básico
 
 > Archivo recomendado:
 ```bash
 pip install pandas 
 pip install numpy 
-pip install matplotlib
 ```
 </p>
 
@@ -134,7 +132,15 @@ Crear un dashboard interactivo en Power BI que permita visualizar y analizar las
 2. **Definición de Paleta de Colores**: Establecer una paleta de colores coherente y profesional para el dashboard.
 3. **Diseño del dashboard**: Crear visualizaciones interactivas (gráficos de barras, líneas, mapas, etc.) para mostrar las métricas clave.
 4. **Interactividad**: Implementar filtros y segmentaciones para permitir a los usuarios explorar los datos de manera dinámica.
-5. **Validación del dashboard**: Asegurar que todas las visualizaciones funcionen correctamente.</p>
+5. **Validación del dashboard**: Asegurar que todas las visualizaciones funcionen correctamente.
+
+Fase 3: Desarrollo de Roles para el Ingreso a el Dashboard
+### Objetivo: 
+Mediante roles podemos limitar el acceso a los usuario que desen ver el Dashboard, ya que par aun Gerente de una Sucursal no le es Importante ver los datos de las otras sucursales a menos que se encuentren en un tipo de Competencia u otras cosas
+### Tareas:
+1. **Creacion de los Roles**: Mediante un sheet de Excel se creo la tabla de Roles de Usuarios.
+2. **Implementacion en PowerBI**: Luego de exportar la tabla a Power BI se crea mediante DAX un filtro para asi revisar el usuario segun el correo.
+3. **Puesta en Practica**: Ahora los usuarios para entrar deberan usar su cuenta empresarial para Loguearse en el Dashboard.</p>
 
 ###
 
@@ -145,7 +151,7 @@ Crear un dashboard interactivo en Power BI que permita visualizar y analizar las
 ###
 
 <div align="center">
-  <img height="500" src="https://i.imgur.com/JkMHZMo.jpeg"  />
+  <img height="500" src="https://i.imgur.com/Ltf9XWV.jpeg"  />
 </div>
 
 ###
@@ -209,10 +215,7 @@ Visualizaciones interactivas:
 
 Próximas Mejoras:
 * Automatización de la carga de datos
-* Optimización de medidas DAX
-* Implementación de Top N dinámicos
-* Publicación en Power BI Service
-* Versión Dark Mode del dashboard</p>
+* Optimización de medidas DAX</p>
 
 ###
 
